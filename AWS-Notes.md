@@ -1576,7 +1576,9 @@ Amazon EC2 is an AWS service that provides **resizable virtual servers in the cl
 
 EC2 allows us to **launch, manage and scale servers on AWS**.
 
-We can use these virtual computers to:
+These virtual servers are called **EC2 Instances**.
+
+We can use these **EC2 Instances** to:
 
 - 🌐 Host websites
 - ⚙️ Run applications
@@ -1584,6 +1586,22 @@ We can use these virtual computers to:
 - 📦 Install software
 - 🐳 Run Docker
 - 🔧 Run Jenkins
+
+### ⚙️ It Provides
+
+- 💻 Different Instance Types
+- 🧠 CPU and Memory Resources
+- 💾 Storage Options
+- 🌐 Networking Resources
+
+We can select these resources according to our needs.
+
+</br>
+<p align="center">
+
+![Amazon S3](https://github.com/samir-shaikh7/My-Notes/blob/main/AWS-Notes/Images/EC2-def.png?raw=true)
+
+</p>
 
 #### 🧠 Easy Memory
 
@@ -3456,6 +3474,22 @@ S3 stores data as **Objects inside Buckets**.
 - 🌐 Static website files
 - 📝 Log files
 - 📦 Application files
+
+### ⚙️ It Provides
+
+- 📈 Scalable Storage
+- 🛡️ High Durability
+- 🔐 Security Features
+- 💰 Different Storage Classes
+
+</br>
+<p align="center">
+
+![Amazon S3](https://github.com/samir-shaikh7/My-Notes/blob/main/AWS-Notes/Images/S3-def.png?raw=true)
+
+</p>
+
+---
 
 #### 🏗️ S3 Basic Architecture
 
