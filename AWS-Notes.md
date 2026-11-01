@@ -850,9 +850,37 @@ These notes follow a **logical learning order**: security and network first, the
 
 > **IAM = Identity and Access Management**
 
-AWS IAM is a service that helps us **control who can access our AWS account and what they can do**.
+IAM is an AWS service that is used to **securely manage users, groups, roles, and permissions.**
 
-IAM answers two main questions:
+IAM allows us to control **who can access AWS resources and what actions they can perform.**
+
+### We can use IAM to:
+
+- 👤 Create and manage IAM users.
+- 👥 Organize users into IAM groups.
+- 🔑 Assign permissions using IAM policies.
+- 🎭 Create and manage IAM roles
+- 🛡️ Control access to AWS resources.
+
+### ⚙️ It Provides components such as:
+
+- 👤 IAM Users
+- 👥 IAM Groups
+- 🎭 IAM Roles
+- 📜 IAM Policies
+
+to securely manage access to AWS resources.
+
+</br>
+<p align="center">
+
+![Amazon IAM](https://github.com/samir-shaikh7/My-Notes/blob/main/AWS-Notes/Images/IAM-def.png?raw=true)
+
+</p>
+
+---
+
+#### IAM answers two main questions:
 
 ```text
 👤 WHO are you?              → Authentication
@@ -1808,17 +1836,40 @@ IAM
 
 ### 📖 Technical Definition
 
-Amazon VPC is an AWS service that lets us create our own **logically isolated private network inside the AWS Cloud**.
+Amazon VPC is an AWS service that is used create our own **logically isolated private network inside the AWS Cloud**.
 
-We control the network, such as:
-
-- 🌐 IP address range
-- 🧩 Subnets
-- 🛣️ Route tables
-- 🚪 Gateways
-- 🛡️ Security rules
+VPC allows us to launch, manage and control AWS resources within our own virtual network.
 
 We launch AWS resources like **EC2, RDS and Load Balancers** inside our VPC.
+
+### We can use VPC to:
+
+- 🌐 Create a private network in AWS.
+- 📍 Define IP address ranges for our network.
+- 🔀 Divide the network into public and private subnets.
+- 🔒 Control incoming and outgoing network traffic.
+- 🚪 Connect our network to the internet.
+
+### ⚙️ It Provides networking components such as:
+
+- 🌐 Subnets
+- 🛣️ Route Tables
+- 🌍 Internet Gateway
+- 🔄 NAT Gateway
+- 🛡️ Security Groups
+- 🔐 Network ACLs
+- 🔗 VPC Peering
+
+to build and manage AWS network environments.
+
+</br>
+<p align="center">
+
+![Amazon S3](https://github.com/samir-shaikh7/My-Notes/blob/main/AWS-Notes/Images/VPC-def.png?raw=true)
+
+</p>
+
+---
 
 #### 🧠 Easy Memory
 
@@ -2849,14 +2900,32 @@ Amazon EC2 is an AWS service that provides **resizable virtual servers in the cl
 
 EC2 allows us to **launch, manage and scale servers on AWS**.
 
-We can use these virtual computers to:
+These virtual servers are called **EC2 Instances**.
 
-- 🌐 Host websites
-- ⚙️ Run applications
-- 🗄️ Run databases
-- 📦 Install software
-- 🐳 Run Docker
-- 🔧 Run Jenkins
+We can use these **EC2 Instances** to:
+
+* 🌐 Host websites
+* ⚙️ Run applications
+* 🗄️ Run databases
+* 📦 Install software
+* 🐳 Run Docker
+* 🔧 Run Jenkins
+
+### ⚙️ It Provides
+
+- 💻 Different Instance Types
+- 🧠 CPU and Memory Resources
+- 💾 Storage Options
+- 🌐 Networking Resources
+
+We can select these resources according to our needs.
+
+</br>
+<p align="center">
+
+![Amazon S3](https://github.com/samir-shaikh7/My-Notes/blob/main/AWS-Notes/Images/EC2-def.png?raw=true)
+
+</p>
 
 #### 🧠 Easy Memory
 
@@ -4730,6 +4799,20 @@ S3 stores data as **Objects inside Buckets**.
 - 📝 Log files
 - 📦 Application files
 
+#### ⚙️ It Provides
+
+- 📈 Scalable Storage
+- 🛡️ High Durability
+- 🔐 Security Features
+- 💰 Different Storage Classes
+
+</br>
+<p align="center">
+
+![Amazon S3](https://github.com/samir-shaikh7/My-Notes/blob/main/AWS-Notes/Images/S3-def.png?raw=true)
+
+</p>
+
 #### 🏗 S3 Basic Architecture
 
 ```text
@@ -6104,17 +6187,49 @@ S3
 
 > **RDS = Relational Database Service**
 
-Amazon RDS is an AWS service that makes it easy to **set up, run and scale a relational database in the cloud**.
+Amazon RDS is a **fully managed database service provided by AWS**.
 
-AWS manages the routine database work for us, such as:
+It is used to **easily create, manage, and run relational databases in the AWS cloud**.
+
+AWS manages most of the database setup and maintenance tasks for us.
+
+### Such as:
 
 - 🖥️ Hardware setup
-- 💿 Operating system patching
-- 📸 Backups
+- 💿 Operating system maintenance
+- 📸 Automated backups
 - 🔄 Software updates
 - 🛡️ Failover (with Multi-AZ)
 
-We only focus on our **data and application**.
+So we don't need to manage everything manually, We only focus on our **data and application**.
+
+### We can use RDS to:
+
+- 🗄️ Create relational databases
+- 📥 Store and retrieve data
+- 🔄 Take automated backups
+- 📈 Increase database capacity
+- 🔒 Manage database security
+- 🌍 Improve database availability
+- 🔍 Monitor database performance
+
+### ⚙️ RDS supports database engines such as:
+
+- 🐬 MySQL
+- 🐘 PostgreSQL
+- 🐬 MariaDB
+- 🏢 Oracle
+- 🪟 Microsoft SQL Server
+- ⚡ Amazon Aurora
+
+</br>
+<p align="center">
+
+![Amazon RDS](https://github.com/samir-shaikh7/My-Notes/blob/main/AWS-Notes/Images/RDS-def.png?raw=true)
+
+</p>
+
+---
 
 #### 📋 What is a Relational Database?
 
